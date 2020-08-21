@@ -6,6 +6,8 @@ A Mapset Verifier plugin to check VBR quality settings.
 ## Installing
 **Disclaimer**: This is extremely hacky.
 
+> If you're under linux, replace all `%APPDATA%` with `~/.local/share` and `Program Files\Mapset Verifier` with the path of your MV's installation.
+
 1. Download [Audacity's FFmpeg library](https://manual.audacityteam.org/man/faq_installing_the_ffmpeg_import_export_library.html). (You can use latest FFmpeg, however it's 2x bigger.)
 2. Extract it to `%APPDATA%\Mapset Verifier Externals\ffmpeg`. `%APPDATA%\Mapset Verifier Externals\ffmpeg\ffmpeg.exe` should exist now.
 3. Go to release tab, download `VBRCheck.dll` and `FFmpeg.NET.dll`.

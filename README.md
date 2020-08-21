@@ -1,7 +1,7 @@
 # VBRCheck
 A Mapset Verifier plugin to check VBR quality settings.
 
-<center><img src="https://cdn.discordapp.com/attachments/745940041963929651/746284182786932816/unknown.png"></img></center>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/745940041963929651/746284182786932816/unknown.png"></img></p>
 
 ## Installing
 **Disclaimer**: This is extremely hacky.
@@ -15,7 +15,7 @@ A Mapset Verifier plugin to check VBR quality settings.
 7. Apply these `diff`s being done to the file.
 ```diff
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "3.1.2",
-+		  "xFFmpeg.NET": "3.4.0"
++         "xFFmpeg.NET": "3.4.0"
 ```
 
 ```diff
@@ -27,7 +27,7 @@ A Mapset Verifier plugin to check VBR quality settings.
           }
         }
       },
-+	  "xFFmpeg.NET/3.4.0": {
++     "xFFmpeg.NET/3.4.0": {
 +        "runtime": {
 +          "lib/netstandard2.0/FFmpeg.NET.dll": {
 +            "assemblyVersion": "3.4.0.0",
@@ -43,7 +43,7 @@ A Mapset Verifier plugin to check VBR quality settings.
       "serviceable": false,
       "sha512": ""
     },
-+	"xFFmpeg.NET/3.4.0": {
++   "xFFmpeg.NET/3.4.0": {
 +      "type": "package",
 +      "serviceable": true,
 +      "sha512": "sha512-gUWRBhI7XDsnCEP9dFf/DRM6AINQsZngr7K99LD/u2e2TAOCg152ntquLbhplyXjRczu9Ytm87a5EdS9G5Dqzw==",
